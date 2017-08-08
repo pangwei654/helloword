@@ -22,4 +22,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <repositories>
+     <repository>
+          <id>maven-snapshots-local</id>
+          <url>http://192.168.1.134:8081/artifactory</url>
+          <layout>default</layout>
+        </repository>
+
+        <repository>
+          <id>maven-stage-local</id>
+          <name>maven-stage-local</name>
+          <url>http://192.168.1.134:8081/artifactory</url>
+          <layout>default</layout>
+        </repository>
+  
+  </repositories>
 </project>
