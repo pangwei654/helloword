@@ -25,7 +25,7 @@
   </dependencies>
 
 
-	<build>
+	<!--  <build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<plugins>
 			<plugin>
@@ -63,7 +63,7 @@
 				</executions>
 			</plugin>
 		</plugins>
-	</build>
+	</build>-->
 	<!-- 配置远程发布到私服，mvn deploy -->
 	<distributionManagement>
 		<repository>
